@@ -48,7 +48,7 @@
                                         </connections>
                                     </button>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TXm-qh-7Xg">
-                                        <rect key="frame" x="20" y="854.5" width="374" height="2.5"/>
+                                        <rect key="frame" x="40" y="854.5" width="334" height="2.5"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="tintColor" red="0.2770131528" green="0.3800790906" blue="0.57570761439999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="progressTintColor" red="1" green="0.45854175089999999" blue="0.6605013609" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -56,6 +56,7 @@
                                     </progressView>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="TXm-qh-7Xg" secondAttribute="trailing" constant="40" id="98b-fy-HW3"/>
                                     <constraint firstAttribute="trailing" secondItem="oVw-Hl-IRe" secondAttribute="trailing" constant="32" id="KoM-wp-dGK"/>
                                     <constraint firstAttribute="trailing" secondItem="tbn-vQ-GyC" secondAttribute="trailing" constant="32" id="P4f-ne-wfk"/>
                                     <constraint firstItem="tbn-vQ-GyC" firstAttribute="height" secondItem="oVw-Hl-IRe" secondAttribute="height" id="Sy5-Ze-Ztz"/>
@@ -63,6 +64,7 @@
                                     <constraint firstItem="tbn-vQ-GyC" firstAttribute="leading" secondItem="Q5h-rC-Uui" secondAttribute="leading" constant="32" id="fQ5-4B-iUm"/>
                                     <constraint firstItem="oVw-Hl-IRe" firstAttribute="leading" secondItem="Q5h-rC-Uui" secondAttribute="leading" constant="32" id="mXw-xj-DqF"/>
                                     <constraint firstItem="tbn-vQ-GyC" firstAttribute="width" secondItem="oVw-Hl-IRe" secondAttribute="width" id="qFp-5M-Imh"/>
+                                    <constraint firstItem="TXm-qh-7Xg" firstAttribute="leading" secondItem="Q5h-rC-Uui" secondAttribute="leading" constant="40" id="ujZ-Xg-NvH"/>
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="500" verticalCompressionResistancePriority="1000" image="Background-Bubbles" translatesAutoresizingMaskIntoConstraints="NO" id="eGL-jB-Wwb">
