@@ -32,6 +32,9 @@
                                         <state key="normal" title="True" backgroundImage="Rectangle">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kPJ-Pc-vGS"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbn-vQ-GyC">
                                         <rect key="frame" x="32" y="776.5" width="350" height="68"/>
@@ -40,6 +43,9 @@
                                         <state key="normal" title="False" backgroundImage="Rectangle">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="answerSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JhM-3V-ItF"/>
+                                        </connections>
                                     </button>
                                     <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progressViewStyle="bar" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TXm-qh-7Xg">
                                         <rect key="frame" x="20" y="854.5" width="374" height="2.5"/>
@@ -75,6 +81,12 @@
                             <constraint firstItem="Q5h-rC-Uui" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="nFk-kM-iIT"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="falseButtton" destination="tbn-vQ-GyC" id="lpA-Ed-qek"/>
+                        <outlet property="progressBar" destination="TXm-qh-7Xg" id="A80-we-WOH"/>
+                        <outlet property="questionLabel" destination="rSI-li-mhO" id="YHl-yx-WEm"/>
+                        <outlet property="trueButton" destination="oVw-Hl-IRe" id="Txy-ux-efS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
